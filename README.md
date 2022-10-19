@@ -1,5 +1,5 @@
 # Hacktoberfest-2022
-🌱 Contribute your favorite 📚 Data Structure implementation, 🕸 Algorithms, and 🎲 Projects. 😊 | Very Active Repository, Star and Share with your friends |
+🌱 Contribute your favorite 📚 Web Development, App Development 🎲 Blockchain Projects. 😊 | Very Active Repository, Star and Share with your friends |
 
 This is a repository I made to give beginners a head start to hacktoberfest, and to welcome you all to the open source community.
 
