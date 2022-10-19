@@ -1,8 +1,7 @@
 # Hacktoberfest-2022
 🌱 Contribute your favorite 📚 Data Structure implementation, 🕸 Algorithms, and 🎲 Projects. 😊 | Very Active Repository, Star and Share with your friends |
 
-# Hackto.py
-This repository contain python projects.
+
 
 #  Hacktoberfest-2022🔥
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
