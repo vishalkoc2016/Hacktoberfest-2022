@@ -7,7 +7,7 @@ This is a repository I made to give beginners a head start to hacktoberfest, and
 
 - Firstly Fork my Repository
 - Click on Add file
-- You can upload your DSA or CP codes (Or create a new file for it)
+- You can upload your Projects (Or create a new file for it)
 - Commit your changes
 - Make a pull request and that's all
 
