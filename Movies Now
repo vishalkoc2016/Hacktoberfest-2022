@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Now</title>
+    <link rel="stylesheet" href="style.css" />
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+  </head>
+  <body>
+    <!-- nav -->
+    <div id="nav" class="nav">
+      <div class="nav1">
+      <img class="nav__logo" src="logo.png" alt="" /></div>
+      
+      <div class="srcbtn">
+        <input type="text" placeholder="Search movies,series.."style="width:50%;padding: 10px;font-size: 15px;">
+      </div>
+      <div class="nav2">
+      <img class="nav__avatar" src="logo2.png" alt="" /></div>
+    </div>
+
+   
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="small-movie3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Godzilla vs. Kong</h5>
+              <p>The epic next chapter in the cinematic Monsterverse pits two of the
+                     greatest icons in motion picture history against each other--
+                   the fearsome Godzilla and the mighty Kong--with humanity caught in the balance.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="879599.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Stranger Things</h5>
+              <p>When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Daredevil.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Daredevil</h5>
+              <p>A blind lawyer by day, vigilante by night. Matt Murdock fights the crime of New York as Daredevil.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+
+    <!-- Netflix Originals -->
+    <div class="row">
+      <h2>BEST SHOWS</h2>
+      <div class="row__posters">
+        <img class="row__poster row__posterLarge" src="large-movie1.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie2.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie3.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie4.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie5.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie6.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie7.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie8.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="Sex life.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="avenger2.jpg" alt="" />
+
+      </div>
+    </div>
+
+
+    <div class="row">
+      <h2>TRENDING NOW</h2>
+      <div class="row__posters">
+        <img class="row__poster row__posterLarge" src="avenger2.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="spiderman.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="mib.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="Avenger.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie5.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie2.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="lion king.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie7.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie8.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie1.jpg" alt="" />
+
+      </div>
+    </div>
+
+
+    <!-- Trending Now -->
+    <!-- <div class="row">
+      <h2>Trending Now</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="small-movie1.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie2.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie3.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie4.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie5.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie6.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie7.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie8.jpg" alt="" />
+      </div>
+    </div> -->
+
+    <!-- Top Rated -->
+    <!-- <div class="row">
+      <h2>Top Rated</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="The Witcher.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie8.jpg" alt="" />
+
+        <img class="row__poster" src="Stranger-Things-4.webp" alt="" />
+
+        <img class="row__poster" src="Dark-Desire.jpg" alt="" />
+
+        <img class="row__poster" src="879599.png" alt="" />
+
+        <img class="row__poster" src="Vikings-.jpg" alt="" />
+
+        <img class="row__poster" src="Dark.jpg" alt="" />
+
+        <img class="row__poster" src="vikings2.jpg" alt="" />
+      </div>
+    </div> -->
+    <div class="row">
+      <h2>Top Rated</h2>
+      <div class="row__posters">
+        <img class="row__poster row__posterLarge" src="Dark.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="vikings2.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="Stranger-Things-4.webp" alt="" />
+
+        <img class="row__poster row__posterLarge" src="Daredevil.jpg" alt="" />
+
+        <!-- <img class="row__poster row__posterLarge" src="large-movie5.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie6.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie7.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie8.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="Sex life.jpg" alt="" /> -->
+      </div>
+    </div>
+
+
+    <!-- Action Movies -->
+    <div class="row">
+      <h2>Live Sports</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="live2.jpg" alt="" />
+
+        <img class="row__poster" src="live3.jpg" alt="" />
+
+        <img class="row__poster" src="live1.jpg" alt="" />
+
+        <img class="row__poster" src="live4.jpg" alt="" />
+
+        <img class="row__poster" src="live6.jpg" alt="" />
+
+        <img class="row__poster" src="live7.jpeg" alt="" />
+
+        <img class="row__poster" src="live3.jpg" alt="" />
+
+      </div>
+    </div>
+
+   
+
+    <!-- Horror Movies -->
+    <div class="row">
+      <h2>Horror Movies</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="conjuring.jpg" alt="" />
+
+        <img class="row__poster" src="ouija-2-origin.jpg" alt="" />
+
+        <img class="row__poster" src="room203.jpg" alt="" />
+
+        <img class="row__poster" src="It.jpg" alt="" />
+
+        <img class="row__poster" src="Nun.jpg" alt="" />
+
+        <img class="row__poster" src="Annablle.webp" alt="" />
+
+        <img class="row__poster" src="small-movie7.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie8.jpg" alt="" />
+      </div>
+    </div>
+     <!-- Comedy Movies -->
+     <!-- <div class="row">
+      <h2>Comedy Movies</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="small-movie4.jpg" alt="" />
+
+        <img class="row__poster" src="images/small-movie2.jpg" alt="" />
+
+        <img class="row__poster" src="images/small-movie3.jpg" alt="" />
+
+        <img class="row__poster" src="images/small-movie4.jpg" alt="" />
+
+        <img class="row__poster" src="images/small-movie5.jpg" alt="" />
+
+        <img class="row__poster" src="images/small-movie6.jpg" alt="" />
+
+        <img class="row__poster" src="images/small-movie7.jpg" alt="" />
+
+        <img class="row__poster" src="images/small-movie8.jpg" alt="" />
+      </div>
+    </div> -->
+    <div class="row">
+      <h2>Comedy Movies</h2>
+      <div class="row__posters">
+        <img class="row__poster row__posterLarge" src="large-movie4.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie5.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie6.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie4.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie2.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie1.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie7.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="large-movie8.jpg" alt="" />
+
+        <img class="row__poster row__posterLarge" src="Sex life.jpg" alt="" />
+      </div>
+    </div>
+     <!-- Action Movies -->
+     <div class="row">
+      <h2>Action Movies</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="Vikings-.jpg" alt="" />
+
+        <img class="row__poster" src="Daredevil.jpg" alt="" />
+
+        <img class="row__poster" src="vikings2.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie1.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie2.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie3.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie6.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie8.jpg" alt="" />
+      </div>
+    </div>
+
+
+    <!-- Romance Movies -->
+    <div class="row">
+      <h2>Romance Movies</h2>
+      <div class="row__posters">
+        <img class="row__poster" src="Daredevil.jpg" alt="" />
+
+        <img class="row__poster" src="Dark-Desire.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie3.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie4.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie5.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie6.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie7.jpg" alt="" />
+
+        <img class="row__poster" src="small-movie1.jpg" alt="" />
+      </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script>
+      const nav = document.getElementById('nav');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+          nav.classList.add('nav__black');
+        } else {
+          nav.classList.remove('nav__black');
+        }
+      });
+    </script>
+  </body>
+</html>
