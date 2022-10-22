@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blur Effect</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .depth-gallery {
+            position: relative;
+            display: inline-block;
+            padding: 20px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .depth-gallery img {
+            border: 7px solid white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            cursor: crosshair;
+            transition: filter 0.3s linear, transform 0.3s linear;
+            margin: 8px;
+        }
+
+        .depth-gallery:hover img {
+            filter: blur(4px);
+            transform: scale(0.9);
+        }
+
+        .depth-gallery img:hover{
+            filter: blur(0px);
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+
+<body>
+    <p>
+        Hover over images to see the magic ✨
+    </p>
+    <div class="depth-gallery">
+        <img src="https://bit.ly/3mYYSNU" alt="a smiling dog" height="300">
+        <img src="https://bit.ly/3tMBSpd" alt="library" height="300"> <br>
+        <img src="https://bit.ly/3N6DBMS" alt="Hogwarts ties" height="300">
+        <img src="https://bit.ly/3OnTX4N" alt="Chocolates" height="300">
+    </div>
+
+</body>
+
+</html>
