@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Radio+Canada:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+
+/* UTILITIES */
+
+   body {
+    font-family: cursive;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+   /* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+   }
+
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    font-size: 18px;
+   }
+
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(0, 0, 0);
+    padding: 1em 0;
+    position: relative; 
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #ffffff;
+   }
+   .services:hover .dropdown {
+    display: block;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+   }
+
+   .menu1
+{
+    padding: 28.5px 20px;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.menu2
+{
+    padding: 28.5px 20px;
+    background-color:rgb(255, 115, 0);
+    color:rgb(255, 255, 255);
+
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.menu3
+{
+    padding: 28.5px 20px;
+    background-color:rgb(255, 174, 0);
+    color:rgb(255, 255, 255);
+
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.menu4
+{
+    padding: 28.5px 20px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.text{
+    position: absolute;
+    left: 50px;
+    top:174px;
+}
+
+.wild {
+    font-family: 'Francois One', sans-serif;
+    font-size: 90px;
+    font-weight: 100;
+    color: black;
+}
+
+.rec {
+    background-color: rgb(255, 115, 0);
+    width: 185px;
+    padding: 22px;
+
+}
+
+.will {
+    color: rgb(0, 0, 0);
+     font-family: 'Yanone Kaffeesatz', sans-serif; 
+     font-size: 15px ;
+
+}
+
+.num {
+    color: orangered;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.txt {
+    color: black;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.hi {
+    color: #ffffff;
+    font-family: 'Radio Canada', sans-serif;    
+}
+ .hello {
+     color: #ffffff;
+     font-family: 'Radio Canada', sans-serif;   
+ }
+
+ .btn-group
+{ 
+    background-color:rgb(0, 0, 0);
+    color:#fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+.btn-group2
+{ 
+    background-color:rgb(87, 155, 243); 
+    color:#fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+
+.btn-group3
+{ 
+    background-color:rgb(0, 0, 0); 
+    color:#fff;
+    padding: 12px 150px;
+    border-radius: 0px;
+    border-color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+
+.butt {
+    margin: 78px;
+}
+
