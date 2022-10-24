@@ -1,71 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple HTML HomePage</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parallax Website</title>
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ledger" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header">
-    <a href="#" class="logo">Developer</a>
-    <nav class="nav-items">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <div class="intro">
-      <h1>A Web Developer</h1>
-      <p>I am a web developer and I love to create websites.</p>
-      <button>Learn More</button>
-    </div>
-    <div class="achievements">
-      <div class="work">
-        <i class="fas fa-atom"></i>
-        <p class="work-heading">Projects</p>
-        <p class="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
-      </div>
-      <div class="work">
-        <i class="fas fa-skiing"></i>
-        <p class="work-heading">Skills</p>
-        <p class="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
-      </div>
-      <div class="work">
-        <i class="fas fa-ethernet"></i>
-        <p class="work-heading">Network</p>
-        <p class="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
-      </div>
-    </div>
-    <div class="about-me">
-      <div class="about-me-text">
-        <h2>About Me</h2>
-        <p>I am a web developer and I love to create websites. I am a very good developer and I am always looking for new projects. I am a very good developer and I am always looking for new projects.</p>
-      </div>
-      <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="me">
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="copy">&copy; 2022 Developer</div>
-    <div class="bottom-links">
-      <div class="links">
-        <span>More Info</span>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-      <div class="links">
-        <span>Social Links</span>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </footer>
-</body>
 
+  <header class="v-header container">
+      <div class="fullscreen-video-wrap">
+        <video src="vid/dock.mov" autoplay="" loop=""></video>
+      </div>
+      <div class="header-overlay"></div>
+      <div class="header-content ">
+        <div class="logo">
+          <img src="./img/logo4.png" alt="Puzzle Lightbulb">
+        </div>
+        <div class="logo-name">
+          <img src="./img/name3.png" alt="Denis S Dujota">
+          <a href="#about" class="btn fa fa-chevron-circle-down fa-5x"></a>
+        </div>
+
+
+
+        <!-- <h1>Hello World</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id temporibus perferendis necessitatibus numquam amet impedit explicabo? Debitis quasi ullam aperiam!</p> -->
+        <!--
+      </div> -->
+    </header>
+
+  <section class="section section-light">
+    <h1>Who Am I ?</h1>
+
+    <p>
+      I am an adventurer.
+      It can take me to the far east for a bowl of the best ramen on earth or pulling a marathon of Neil deGrasse Tyson. It's that spark of curiousity which drives my passion. Nothing has captivated me more than the journey of being a web developer. I'd like to keep it up.
+    </p>
+  </section>
+
+  <div class="parallax-img2">
+    <div class="ptext">
+      <span class="border">
+        <img src="./img/quote5.png" alt="Isaac Newton Quote">
+      </span>
+    </div>
+  </div>
+
+  <div class="section section-dark">
+    <h2>What can I do?</h2>
+
+    <p class="skill-name"><i class="fa fa-cogs" aria-hidden="true"></i> Back-End (Rails, PostgreSQL)</p>
+    <div class="skill-container">
+      <div class="skills back-end">90%</div>
+    </div>
+
+    <p class="skill-name"><i class="fa fa-picture-o" aria-hidden="true"></i> Front-End (HTML, CSS, JS)</p>
+    <div class="skill-container">
+      <div class="skills front-end">85%</div>
+    </div>
+
+    <p class="skill-name"><i class="fa fa-shield" aria-hidden="true"></i> Testing (RSpec, Jasmine, PhantomJS)</p>
+    <div class="skill-container">
+      <div class="skills testing">80%</div>
+    </div>
+
+    <p class="skill-name"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Web Design</p>
+    <div class="skill-container">
+      <div class="skills design">75%</div>
+    </div>
+
+    <p class="skill-name"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Learning a new skill</p>
+    <div class="skill-container">
+      <div class="skills learn">100%</div>
+    </div>
+
+  </div>
+
+  <div class="parallax-img3">
+    <div class="ptext">
+      <span class="border">
+        <img src="./img/quote6-a.png" alt="Socrates Quote">
+      </span>
+    </div>
+  </div>
+
+  <div class="section section section-dark">
+    <h2>What have I done?</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quisquam voluptatum quidem praesentium temporibus eaque commodi nihil, rerum saepe in perspiciatis. Odit, blanditiis eius debitis, quisquam et optio! Iure nesciunt commodi nulla aliquam culpa fugit nihil laboriosam soluta repellat consequuntur magnam repudiandae odio reiciendis, veniam illo, modi quibusdam impedit deleniti?
+    </p>
+  </div>
+
+  <div class="parallax-img1">
+    <div class="ptext">
+      <span class="border">
+        <h1>The End</h1>
+      </span>
+    </div>
+  </div>
+
+</body>
 </html>
