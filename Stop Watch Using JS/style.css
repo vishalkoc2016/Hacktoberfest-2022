@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(42, 133, 236);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+h1{
+    font-family: 'Bungee Spice', cursive;
+    font-size: 50px;
+}
+.wrapper{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+}
+
+.wrapper p{
+    position: relative;
+    display: inline-block;
+    color:rgb(46, 189, 225);
+    z-index: 9999;
+    font-size: 48px;
+    margin-bottom: 30px;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.btn{
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25%;
+    margin: 2px 5px;
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.btn:hover{
+    background-color: gray;
+}
