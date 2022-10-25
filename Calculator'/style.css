@@ -19,5 +19,11 @@ html,body{
     margin: 0;
     padding: 10px 0px;
     border: 2px solid red;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+.container{
+    background-color: red;
+    width: 20rem;
+    padding: 1rem 0rem;
+    border-radius: 20px;
 }
